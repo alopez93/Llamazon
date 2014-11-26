@@ -4,7 +4,7 @@
 
 <!-- Custom CSS -->
 <!-- clean-blog.css  -->
-<link href="<c:url value="/resources/llamazon/css/llamazon.css" />" rel="stylesheet">
+<link href="<c:url value="/resources/custom/llamazon/css/llamazon.css" />" rel="stylesheet">
 
 <!-- Custom Fonts -->
 <link
