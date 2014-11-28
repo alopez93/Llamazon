@@ -7,7 +7,7 @@ CREATE TABLE `LlamazonBooks` (
 	`llamazonBookId` INT NOT NULL AUTO_INCREMENT,
 	`title` VARCHAR(30) NOT NULL,
 	`description` VARCHAR(3000) NOT NULL,
-	`bookImage` VARCHAR(50) NOT NULL,
+	`bookImage` VARCHAR(500) NOT NULL,
 	`author` VARCHAR(50) NOT NULL,
     PRIMARY KEY (llamazonBookId)
 );
