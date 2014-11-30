@@ -44,13 +44,10 @@
                 <div class="row clearfix">
                     <div class="col-md-1 column">
                     </div>
-                    <div class="col-md-2 column">
-                        <button type="button" class="btn btn-success btn-lg">Download</button>
+                    <div class="col-md-6 column" style="text-align:center;">
+                        <a href="downloadBook?format=${book.bookFormat}&bookId=${book.llamazonBookId}" class="btn btn-success">Download</a>
                     </div>
                     <div class="col-md-1 column">
-                    </div>
-                    <div class="col-md-2 column">
-                        <a type="button" class="btn btn-lg btn-default">Return</a>
                     </div>
                     <div class="col-md-6 column">
                     </div>

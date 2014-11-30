@@ -6,3 +6,6 @@
 
 	<!-- Custom Theme JavaScript -->
 	<script src="<c:url value="/resources/custom/llamazon/js/llamazon.js" />"></script>
+	
+	<!-- Ajax -->
+	<script src="<c:url value="/resources/ajax/llamazon.js" />"></script>

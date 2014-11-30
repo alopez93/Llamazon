@@ -5,10 +5,10 @@ DROP TABLE IF EXISTS `LamazonBooks`;
 DROP TABLE IF EXISTS `LlamazonBooks`;
 CREATE TABLE `LlamazonBooks` (
 	`llamazonBookId` INT NOT NULL AUTO_INCREMENT,
-	`title` VARCHAR(30) NOT NULL,
+	`title` VARCHAR(100) NOT NULL,
 	`description` VARCHAR(3000) NOT NULL,
 	`bookImage` VARCHAR(500) NOT NULL,
-	`author` VARCHAR(50) NOT NULL,
+	`author` VARCHAR(100) NOT NULL,
     PRIMARY KEY (llamazonBookId)
 );
 

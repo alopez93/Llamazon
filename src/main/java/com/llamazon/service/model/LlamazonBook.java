@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity
 @Table(name="LlamazonBooks")
@@ -26,6 +27,9 @@ public class LlamazonBook {
 	
 	@Column(name = "author")
 	private String author;
+	
+	@Transient
+	private String bookFormat;
 	
 	public LlamazonBook(){}
 	
@@ -64,6 +68,14 @@ public class LlamazonBook {
 
 	public void setAuthor(String author) {
 		this.author = author;
+	}
+
+	public String getBookFormat() {
+		return bookFormat;
+	}
+
+	public void setBookFormat(String bookFormat) {
+		this.bookFormat = bookFormat;
 	}
 
 }
